@@ -1,0 +1,100 @@
+body{
+    background: #1d1d1d;
+    margin: 0;
+}
+.container{
+    margin: 0;
+    width:100%;
+    height:100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #1d1d1d;
+    color: aliceblue;
+}
+.container .nav{
+    width:80%;
+    height:20%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+.container .nav .image{
+    width:20%;
+    height:100%;
+}
+.container .nav .image .image_name{
+    width: 90%;
+    height: 100%;
+    border-radius: 20%; 
+}
+.container .nav .name{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.container .nav .name .main_name{
+    padding-left: 30%;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.container .nav .name .sub_name{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}   
+.container .nav .name .sub_name .phone{
+    padding-left: 2%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+
+.container .nav .name .sub_name .email{
+    padding-left: 2%;
+    font-size: 20px;
+}
+
+.contents{
+    width:80%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.contents .catalog{
+    width: 20%;
+    height: 100%;
+}
+.contents .main_contents{
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+}
+.contents .catalog .languages{
+    display: block;
+    text-align: center;
+    padding-top: 10%;
+}
+.contents .catalog .skills{
+    display: block;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.contents .main_contents .education{
+    margin: auto;
+    width: 80%;
+    color: aliceblue;
+    padding-top: 5%;
+}
+table{
+    color: aliceblue;
+}
+.projects{
+    display: block;
+    text-align: center;
+}
